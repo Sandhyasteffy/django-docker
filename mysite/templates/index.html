@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DevOps Project</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #101827, #174477);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            width: 85%;
+            max-width: 650px;
+            padding: 40px 25px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid #45617e;
+            border-radius: 18px;
+        }
+
+        .tag {
+            color: #7dd3fc;
+            letter-spacing: 3px;
+            font-size: 13px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 22px 0 15px;
+        }
+
+        p {
+            color: #d5e2f0;
+            line-height: 1.7;
+        }
+
+        .tools {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 25px 0;
+        }
+
+        .tools span {
+            background: #24476b;
+            padding: 10px 14px;
+            border-radius: 8px;
+        }
+
+        .status {
+            color: #86efac;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #b5c6d9;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="card">
+        <div class="tag">MY DEVOPS PROJECT</div>
+
+        <h1>Welcome to My Application!</h1>
+
+        <p>
+            This Django application is packaged using Docker
+            and deployed on AWS EC2.
+        </p>
+
+        <div class="tools">
+            <span>Python</span>
+            <span>Django</span>
+            <span>Docker</span>
+            <span>Jenkins</span>
+            <span>Terraform</span>
+            <span>AWS</span>
+        </div>
+
+        <p class="status">
+            ● Application is running
+        </p>
+
+        <footer>
+            Built with Docker · Deployed on AWS
+        </footer>
+    </main>
+</body>
+</html>
