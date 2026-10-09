@@ -2,7 +2,7 @@
 
 
 
-\## 📌 Project Overview
+\##  Project Overview
 
 
 
@@ -22,7 +22,7 @@ The final Docker deployment to EC2 is performed manually as required for the pro
 
 
 
-\## 🏗️ Architecture
+\##  Architecture
 
 
 
